@@ -1,5 +1,12 @@
 # Cache objects
 packer_cache/
-
+packer_virtualbox-ovf_virtualbox.box
 # For built boxes
 *.box
+*.log
+# For vagrant test runs
+.vagrant/
+
+# because EULA
+fortios-600build0076.ova
+fortios.qcow2
